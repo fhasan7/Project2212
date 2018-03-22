@@ -1,3 +1,4 @@
+import java.util.Hashtable;
 
 public class LoginServer {
 
@@ -9,6 +10,6 @@ public class LoginServer {
 	}
 	
 	public boolean isValid(String username, String password) {
-		
+		return true;
 	}
 }

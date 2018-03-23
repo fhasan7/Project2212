@@ -1,7 +1,9 @@
 package cs2212_Project;
 
 public class Instructor {
-	private String password;
+	
+	
+	
 	private int instructorID;
 	private String username;
 	private String name;
@@ -9,7 +11,7 @@ public class Instructor {
 	private int phoneNumber;
 	private String email;
 	
-	public Instructor(String name,String surname, int ID,String password, String email,int phoneNumber, String username) {
+	public Instructor(String name,String surname, int ID, String email,int phoneNumber, String username) {
 	
 		this.name = name;
 		this.surname = surname;
@@ -17,14 +19,9 @@ public class Instructor {
 		this.email = email;
 		this.phoneNumber = phoneNumber;
 		this.username = username;
-		this.password = password;
+		
 	}
-	public String getPassword(){
-		return this.password;
-	}
-	public void setPassword(String password){
-		this.password = password;
-	}
+	
 	public int getInstructorID(){
 		return this.instructorID;
 	}

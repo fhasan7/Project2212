@@ -7,22 +7,14 @@ public class Student {
 	private String surname;
 	private int phoneNumber;
 	private String email;
-	private String password;
 	
-	public Student(String name,String surname, int ID,String password, String email,int phoneNumber, String username) {
+	public Student(String name,String surname, int ID, String email,int phoneNumber, String username) {
 		this.name = name;
 		this.surname = surname;
 		studentID = ID;
 		this.email = email;
 		this.phoneNumber = phoneNumber;
 		this.username = username;
-		this.password = password;
-	}
-	public String getPassword(){
-		return this.password;
-	}
-	public void setPassword(String password){
-		this.password = password;
 	}
 	public int getStudentID(){
 		return this.studentID;

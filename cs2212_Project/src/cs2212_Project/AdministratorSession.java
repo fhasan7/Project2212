@@ -11,10 +11,10 @@ public class AdministratorSession{
 	}
 	
 	public void showOperations() {
-		System.out.println("------------------------------------------------------------------------");
+		System.out.println("------------------------------------------------------------------------------");
 		System.out.println("Welcome back "+username+ " - What do you want to do today?");
-		System.out.println("------------------------------------------------------------------------");
 		System.out.println("1. Start the System\t2. Stop the System\t3. Read Course Files");
+		System.out.println("------------------------------------------------------------------------------");
 		System.out.print("Choose one of the above: ");
 		
 	}

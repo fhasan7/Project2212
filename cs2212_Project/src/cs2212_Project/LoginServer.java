@@ -43,7 +43,6 @@ public class LoginServer {
 		}
 		
 		else {
-			System.out.println("Login Successful");
 			return userTypeHashtable.get(username);
 		}
 		

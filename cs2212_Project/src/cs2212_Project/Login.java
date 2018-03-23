@@ -40,7 +40,7 @@ public class Login {
 				}
 				
 				else {
-					session.chooseOperation(a);
+					
 				}
 			}
 			

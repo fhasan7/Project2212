@@ -19,10 +19,4 @@ public class AdministratorSession{
 		
 	}
 	
-	public void chooseOperation(int n) {
-		if (n==3) {
-			
-		}
-	}
-	
 }
